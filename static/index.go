@@ -28,7 +28,7 @@ func IndexForPrefix(prefix string) http.HandlerFunc {
   <link rel="stylesheet" href="%s">
 </head>
 <body>
-  <div class="vote-block" style="max-width: 300px; margin: 0 auto;">
+  <div class="block" id="vote-block">
     <h2>Vote Example</h2>
     <div id="vote"></div>
   </div>

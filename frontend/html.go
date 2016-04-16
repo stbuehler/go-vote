@@ -44,14 +44,14 @@ func (f Frontend) BindServeMux(mux *http.ServeMux, prefix string) {
 </head>
 <body style="text-align: center;">
   <div style="display: inline-block; text-align: left;">
-    <div class="block" id="vote-block" style="max-width: 400px; margin: 10px; display: inline-block;">
+    <div class="block" id="vote-block">
       <h2>Rank according to your preferences</h2>
       <p>Choices in the same block have equal preference. Choices in blocks at the top are preferred over choices in lower blocks.</p>
       <div id="vote"></div>
       <p><label>Name: <input id="voter" type="text" size="30"></input></label></p>
       <p><button id="submit-vote">Submit</button></p>
     </div>
-    <div class="block" id="result-block" style="max-width: 400px; margin: 10px; display: inline-block;">
+    <div class="block" id="result-block">
       <h2>Result</h2>
       <p><button id="submit-result">Reload</button></p>
       <div id="result"></div>

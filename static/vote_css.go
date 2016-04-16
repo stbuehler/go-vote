@@ -10,6 +10,7 @@ div.block {
   max-width: 400px;
   margin: 10px;
   display: inline-block;
+  float: left;
 }
 
 #vote ul {
